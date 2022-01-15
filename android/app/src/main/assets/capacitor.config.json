@@ -1,0 +1,6 @@
+{
+	"appId": "com.zia.maptest",
+	"appName": "mapTest",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

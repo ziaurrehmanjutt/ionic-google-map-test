@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">mapTest</string>
+    <string name="title_activity_main">mapTest</string>
+    <string name="package_name">com.zia.maptest</string>
+    <string name="custom_url_scheme">com.zia.maptest</string>
+</resources>

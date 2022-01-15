@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-searchbar  [(ngModel)]="searchAddress" id="serach1" type="search">
+
+    </ion-searchbar>
+    <!-- <ion-title>home-map</ion-title> -->
+    <ion-buttons slot="end">
+      <ion-button (click)="searchLocation()">
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+
+      <ion-button (click)="locateMe()">
+        <ion-icon name="locate"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div #map id="map"></div>
+</ion-content>
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-input [(ngModel)]="latitude"></ion-input>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-input [(ngModel)]="longitude"></ion-input>
+      </ion-col>
+
+      <ion-col size="12">
+        <ion-input [(ngModel)]="address"></ion-input>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>
